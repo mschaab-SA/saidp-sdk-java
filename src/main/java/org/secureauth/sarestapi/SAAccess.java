@@ -1099,7 +1099,7 @@ public class SAAccess implements ISAAccess{
      *
      */
     public ResponseObject BehaveBioProfileReset(String userId, String fieldName, String fieldType, String deviceType){
-        String ts = getServerTime();
+           String ts = getServerTime();
         RestApiHeader restApiHeader =new RestApiHeader();
         BehaveBioResetRequest behaveBioResetRequest = new BehaveBioResetRequest();
         behaveBioResetRequest.setUserId(userId);

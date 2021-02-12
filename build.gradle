@@ -5,8 +5,8 @@ plugins {
     id 'jacoco'
 }
 
-apply plugin:              'maven'
-apply plugin:          'maven-publish'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'org.secureauth.sarestapi'
 version = currentVersion
