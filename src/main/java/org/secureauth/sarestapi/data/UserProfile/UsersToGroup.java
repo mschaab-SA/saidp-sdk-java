@@ -8,7 +8,7 @@ public class UsersToGroup {
 
     public UsersToGroup(){}
 
-    public UsersToGroup(String[] userIds) {
+    public               UsersToGroup(String[] userIds) {
         this.userIds = userIds;
     }
 
