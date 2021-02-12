@@ -15,7 +15,7 @@ public class UserPasswordRequest {
     private String newPassword;
     private String password;
 
-    public String getCurrentPassword() {
+    public String     getCurrentPassword() {
         return currentPassword;
     }
 
