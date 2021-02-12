@@ -7,7 +7,7 @@ import org.secureauth.sarestapi.data.Response.ResponseObject;
 /**
  * Created by rrowcliffe on 5/7/16.
  */
-public interface AdaptiveAuthenticationInterface {
+public interface                AdaptiveAuthenticationInterface {
 
     IPEval ipThreatCheck(SAAccess saAccess, String userid, String ip_address);
 
